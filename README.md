@@ -7,6 +7,11 @@ http://martinmelin.se/rewrite-rule-tester/
 
 Большая **коллекция готовых редиректов** для разных случаев - https://github.com/phanan/htaccess
 
+---
+
+Нижеуказанный код может содержать ошибки, т.к. подробно не проверялся, но отражает общие принципы работы.
+Об ошибках можно сообщить в Issues или сделать Pull Request.
+
 ##301 Redirects for .htaccess (301-е редиректы через команду Redirect в .htaccess)
 
 ```apacheconf
