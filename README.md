@@ -1,0 +1,2 @@
+# .htaccess
+Common .htaccess Redirects
