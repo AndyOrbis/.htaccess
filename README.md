@@ -1,11 +1,11 @@
 # .htaccess
 
-Сайт для проверки, как именно редиректы обрабатывают конкретную ссылку, которую хотим проверить:
+**Сайт для проверки**, как именно редиректы обрабатывают конкретную ссылку, которую хотим проверить:
 http://martinmelin.se/rewrite-rule-tester/
 
-Флаги (NC, L, R=301, QSA и прочие) - https://httpd.apache.org/docs/current/rewrite/flags.html
+**Флаги** (NC, L, R=301, QSA и прочие) - https://httpd.apache.org/docs/current/rewrite/flags.html
 
-Большая коллекция готовых сниппетов - https://github.com/phanan/htaccess
+Большая **коллекция готовых редиректов** для разных случаев - https://github.com/phanan/htaccess
 
 ##301 Redirects for .htaccess (301-е редиректы через команду Redirect в .htaccess)
 
