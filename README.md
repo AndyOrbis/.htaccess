@@ -25,7 +25,9 @@ Redirect 301 /subfolder http://www.domain.com/
 #This will redirect any file with the .html extension to use the same filename but use the .php extension instead.
 #Редирект любого файла с расширением .html на файл с таким же путем и названием, но разрешением php
 RedirectMatch 301 (.*)\.html$ http://www.domain.com$1.php
+```
 
+```apacheconf
 ##
 #You can also perform 301 redirects using rewriting via .htaccess.
 #Можно делать 301-е редиректы по-другому - с помощью движка RewriteEngine в .htaccess
