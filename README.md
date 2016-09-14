@@ -7,9 +7,9 @@ http://martinmelin.se/rewrite-rule-tester/
 
 Большая коллекция готовых сниппетов - https://github.com/phanan/htaccess
 
-```apacheconf
-#301 Redirects for .htaccess (301-е редиректы через команду Redirect в .htaccess)
+##301 Redirects for .htaccess (301-е редиректы через команду Redirect в .htaccess)
 
+```apacheconf
 #Redirect a single page (редирект конкретной страницы):
 Redirect 301 /pagename.php http://www.domain.com/pagename.html
 
@@ -27,12 +27,10 @@ Redirect 301 /subfolder http://www.domain.com/
 RedirectMatch 301 (.*)\.html$ http://www.domain.com$1.php
 ```
 
-```apacheconf
-##
-#You can also perform 301 redirects using rewriting via .htaccess.
-#Можно делать 301-е редиректы по-другому - с помощью движка RewriteEngine в .htaccess
-##
+##You can also perform 301 redirects using rewriting via .htaccess.
+(Можно делать 301-е редиректы по-другому - с помощью движка RewriteEngine в .htaccess)
 
+```apacheconf
 #Redirect from old domain to new domain (редирект со старого домена на новый)
 RewriteEngine on
 RewriteBase /
