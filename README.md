@@ -1,7 +1,9 @@
 # .htaccess
 
 **Сайты для проверки**, как именно редиректы обрабатывают конкретную ссылку, которую хотим проверить:
+
 http://htaccess.mwl.be/ (htaccess tester)
+
 http://martinmelin.se/rewrite-rule-tester/ - лучше визуально видно, какие правила сработали, но то и дело не работает
 
 **Флаги** (NC, L, R=301, QSA и прочие) - https://httpd.apache.org/docs/current/rewrite/flags.html
